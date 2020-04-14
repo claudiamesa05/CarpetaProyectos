@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+       font-family: "roboto",  sans-serif;
+}
+   
+/* ACA EMPIEZA EL MENU */
+
+header {
+    background-color:rgb(229, 147, 202);
+    height: 90px;
+    }
+    
+    nav{ padding-top: 10px;    
+        height:40px ;
+        width: 500px;
+        margin: auto;
+    }
+ .contenedorList {
+     float: right;
+
+ } 
+
+.itemMenu{
+    list-style: none;
+    float: left;
+    margin: 0 30px;
+}
+
+.linkMenu{
+    text-decoration:none;
+       display: block;
+       border: 1px solid rgb(113, 56, 188);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(188, 0, 110);   
+}
+
+
+.linkMenu:hover{
+    color: mediumorchid;
+    background-color: moccasin;
+}
+ 
+
+/* ACA EMPIEZA NUESTRO MAIN*/
+
+.title{
+    text-align: center;    
+    margin: 70px 0 40px;
+    color: rgb(212, 171, 171);
+     font-size: 4rem;
+
+}
+
+.imag {
+margin:auto;
+display: flex;  
+justify-content: center;
+
+}
+.descripcion{
+margin: 0 50px;
+margin-top: 40px;
+text-align: center;
+color:rgb(188, 0, 110);
+font-size: 2rem;
+margin-bottom: 40px;
+
+}
+
+.footer{ 
+    background-color:rgb(229, 147, 202);
+    height: 130px;
+    text-align: center;
+    color: rgb(177, 34, 206);
+}
+
+/*ACA EMPIEZA LA TABLA GALERIA*/
+
+body 
+.table{
+    margin:auto;
+    display: flex;  
+    justify-content: center;
+} 
+
+{
+    background-color: rgb(238, 241, 241);}
+     
+  tr {
+    color: white;
+    text-align: center;
+    margin-right: center;
+    color: rebeccapurple;
+    font-size: 1rem;
+    
+  }
+  
+.fotos{
+    height:400px;
+    width: 400px;
+    margin-right: auto;
+    
+}
+
+
+

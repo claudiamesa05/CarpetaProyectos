@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+   body {
+    font-family: "roboto",  sans-serif;
+   }
+
+.cajaPadre{
+       width: 1200px;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+.botonHijo{
+    width: 200px;
+    height: 100px;
+    border: rgb(125, 59, 187);
+    background-color: rgb(196, 174, 216);
+    display: flex;
+    align-items: center;
+   justify-content:center;
+
+}
+
+.txBoton {
+    font-size: 2rem;
+    font-family: cursive;
+    color: rgb(114, 78, 148);
+
+     }
+/*ACA INICIA EL MAIN -CUERPO*/
+.title{
+    text-align: center;
+    margin: 80px 40px 0;
+    font-size: 48px;
+    color: rgb(116, 70, 158);
+    }
+.imgPortada{
+    display:block;
+    width: 500px;
+    margin: 0 auto 40px;
+   }
+.descripicion{
+    margin: 10px 50px 10px 10px;
+   margin-top: 40px;
+   color: rgb(128, 80, 173);
+   font-family: cursive;
+   font-size: 2rem;
+   text-align: center;
+
+}
+.footer{
+    background-color: rgb(227, 214, 240);
+    padding: 20px 0 50px;
+    height: 200px;
+
+
+
+}
+.contenColsFooter{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+.contcTa{
+    text-align:center;
+    color: blueviolet;
+    font-size: 30px;
+
+}
+.colsFooter{
+    width: 30%;
+    float: left;
+    margin-top: 6px;
+}
+
+.colsFooter a {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+   
+    }
+.colsFooter p {
+    font-weight: 300;
+}
+
+.colsFooter a,
+.colsFooter p {
+    color: rgb(125, 90, 158);
+    text-align: center;
+    font-size: 20px;
+
+    }
+
+    /*SEGUNDA PAGINA*/
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        body {
+            font-family: "roboto",  sans-serif;
+           }
+
+.cajaGrande {
+   display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+   flex-wrap: wrap;
+   
+   
+}
+
+.pinTura {
+width: 100%;
+display: table;
+flex: 1 0 25%; 
+margin: 5px; 
+width: 200px;
+height: 200px;
+
+}
+/*inicia responsive*/
+
+@media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  /*inicia footer de la pagina 2*/
+  .footer{
+    background-color: rgb(227, 214, 240);
+    padding: 20px 0 50px;
+    height: 200px;
+
+
+}
+.contenColsFooter{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+.contcTa{
+    text-align:center;
+    color: blueviolet;
+    font-size: 30px;
+
+}
+.colsFooter{
+    width: 30%;
+    float: left;
+    margin-top: 6px;
+}
+
+.colsFooter a {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+   
+    }
+.colsFooter p {
+    font-weight: 300;
+}
+
+.colsFooter a,
+.colsFooter p {
+    color: rgb(125, 90, 158);
+    text-align: center;
+   font-size: 15px;
+  
+    }
+    /*INICIA LA PAGINA 3*/
+    
+#header {
+    color:rgb(33, 179, 106);
+    text-align: center;
+    margin: 80px 40px 0;
+    font-size: 48px;
+}
+#nav {
+    color: rgb(34, 105, 70);
+   text-align:center;
+    margin: 30px 40px 0;
+    font-size: 30px;
+}
+
+#content{
+    width:600px;
+    height: 600px;
+    align-content:center;
+    margin: 80px 40px 0;
+    justify-content: flex-start;
+
+}
+ 
+
+#tex {
+    margin: 10px 5px 5px 10px;
+    margin-top: 40px;
+    color: rgb(128, 80, 173);
+    font-family: cursive;
+    font-size:20px;
+    text-align:left;
+}
+
+#boton {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600px;
+    font-size: 20px;
+    color: rgb(69, 62, 172);
+    background-color: rgb(119, 190, 119);
+    border-radius: 5px;
+    border: 2px solid;
+    margin: 10px 10px;
+
+
+}
+
+#cajaGrande {
+    display: flex;
+  float: left;
+  width: 600px;
+  height: 600px;
+  
+
+    
+    }
+
+#aside{ 
+    width:600px;
+    height: 600px;
+    align-content:center;
+    margin: 80px 40px 0;
+    float: right;
+    
+   
+    
+
+    }
+#imagen{
+        width: 300px;
+        height: 300px;
+        background-position: left;
+        display: table;
+        flex: 1 0 25;
+        
+        
+    }
+#footer {
+    
+        background: rgb(179, 209, 149);
+        width: 100%;
+        bottom: 0;
+        position: relative;
+        text-align: center;    
+        height: 200px;
+        margin-top: 900px;
+     }
+
+/* pagina 3 guisa*/
+
+#box{
+    overflow: hidden;
+}
+
+#right {
+    float:right;
+    width: 50%;
+    }
+#left{
+    float: left;
+    width: 50%;
+}    
+    
+ /*ACA INICIA LA PAGINA DEL FORMULARIO*/
+
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+
+  
+}
+body {
+    font-family: cursive;
+    background-color: rgb(230, 224, 235);
+    
+}
+
+.form{
+ width:60px; 
+margin: 20px 300px 0;
+   
+}
+
+.contIpus {
+  margin-bottom: 30px;
+ 
+}
+
+.contIpus input, .contIpus select {
+    width: 700px;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(176, 133, 216, 0.685);
+    font-size: 14px;
+    color: rgb(92, 53, 129);
+   
+   }
+.contIpus input:focus,
+.contIpus select:focus {
+    background-color: rgb(226, 43, 156);
+    box-shadow: rgb(233, 164, 210);
+    transition: all 2s ease-in-out;
+    }
+
+.contIpus input:hover,
+.contIpus select:hover {
+    background-color: rgb(127, 80, 172);
+ }
+
+ .contBtn {
+     justify-content:center;
+     align-items:center;
+ }
+
+.contBtn button {
+    padding: 10px 20px;
+    background-color: rgb(172, 120, 221);
+    color: rgb(114, 73, 141);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}  
+
